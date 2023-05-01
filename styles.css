@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    border: none;
+}
+
+body {
+    background-color: black;
+}
+
+.calc-container {
+    height: 600px;
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+}
+
+.result {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    height: 120px;
+}
+
+.result span {
+    margin-right: 30px;
+    font-size: 120px;
+    justify-self: flex-end;
+}
+
+.buttons {
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.val {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    cursor: pointer;
+    align-self: center;
+    justify-self: center;
+}
+
+.percent {
+    background-color: rgb(105, 105, 105);
+    color: black;
+}
+
+.val1 {
+    background-color:rgb(105, 105, 105);
+}
+
+.val2 {
+    background-color: orange;
+}
+
+.number, .comma {
+    background-color: rgb(48, 49, 49);
+}
+
+.negative, .clear {
+    color: black;
+}
+
+.val0 {
+    background-color: rgb(48, 49, 49);
+    width: 170px;
+    border-radius: 45px;
+    grid-column: span 2;
+}
+
